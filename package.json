@@ -4,7 +4,8 @@
   "description": "A Chat Room Application",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "postinstall": "peerjs --port 3001"
   },
   "author": "Rupesh Chaudhari",
   "license": "ISC",
