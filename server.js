@@ -28,4 +28,4 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(4444);
+server.listen(443);
