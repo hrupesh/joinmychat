@@ -23,6 +23,7 @@ io.on("connection", (socket) => {
     socket.to(roomId).broadcast.emit("user-connected", userId);
 
     socket.on("disconnect", () => {
+      console.log("User Disconnected");
       socket.to(roomId).broadcast.emit("user-disconnected", userId);
     });
   });
